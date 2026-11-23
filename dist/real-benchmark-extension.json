@@ -1,0 +1,100 @@
+{
+  "absence": {
+    "train_rows": 592,
+    "test_rows": 148,
+    "positive_share_test": 0.36486486486486486,
+    "split": "Stratified 80/20 holdout; random_state=42",
+    "models": [
+      {
+        "model": "logistic",
+        "status": "EXECUTED",
+        "metrics": {
+          "roc_auc": 0.874113475177305,
+          "average_precision": 0.7900781811996689,
+          "brier": 0.1391223878063646
+        }
+      },
+      {
+        "model": "random_forest",
+        "status": "EXECUTED",
+        "metrics": {
+          "roc_auc": 0.9139085894405043,
+          "average_precision": 0.8096853694735611,
+          "brier": 0.11621982059400267
+        }
+      },
+      {
+        "model": "extra_trees",
+        "status": "EXECUTED",
+        "metrics": {
+          "roc_auc": 0.8930260047281324,
+          "average_precision": 0.7598783511280025,
+          "brier": 0.13491197080982276
+        }
+      },
+      {
+        "model": "hist_gradient",
+        "status": "EXECUTED",
+        "metrics": {
+          "roc_auc": 0.9198187549251379,
+          "average_precision": 0.7919110224737552,
+          "brier": 0.11402821031315623
+        }
+      },
+      {
+        "model": "TabICLv2",
+        "status": "NOT_RUN",
+        "reason": "No foundation-model run was executed for this extension."
+      }
+    ]
+  },
+  "productivity": {
+    "train_rows": 957,
+    "test_rows": 240,
+    "positive_share_test": 0.7291666666666666,
+    "split": "Stratified 80/20 holdout; random_state=42",
+    "models": [
+      {
+        "model": "logistic",
+        "status": "EXECUTED",
+        "metrics": {
+          "roc_auc": 0.7045274725274725,
+          "average_precision": 0.8605749274128527,
+          "brier": 0.1791508625823464
+        }
+      },
+      {
+        "model": "random_forest",
+        "status": "EXECUTED",
+        "metrics": {
+          "roc_auc": 0.8233846153846153,
+          "average_precision": 0.9263717571768241,
+          "brier": 0.1451659677024928
+        }
+      },
+      {
+        "model": "extra_trees",
+        "status": "EXECUTED",
+        "metrics": {
+          "roc_auc": 0.7966593406593406,
+          "average_precision": 0.9153984495564221,
+          "brier": 0.15456402126359936
+        }
+      },
+      {
+        "model": "hist_gradient",
+        "status": "EXECUTED",
+        "metrics": {
+          "roc_auc": 0.7824175824175824,
+          "average_precision": 0.9035726681877225,
+          "brier": 0.1770756856589111
+        }
+      },
+      {
+        "model": "TabICLv2",
+        "status": "NOT_RUN",
+        "reason": "No foundation-model run was executed for this extension."
+      }
+    ]
+  }
+}

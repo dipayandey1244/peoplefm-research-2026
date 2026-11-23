@@ -1,0 +1,200 @@
+{
+  "jobchange": {
+    "rows": 19158,
+    "columns": 13,
+    "headers": [
+      "city_development_index",
+      "gender",
+      "relevent_experience",
+      "education_level",
+      "experience",
+      "training_hours",
+      "LookingForJobChange"
+    ],
+    "sample_rows": [
+      [
+        "0.91",
+        "nan",
+        "'Has relevent experience'",
+        "Graduate",
+        "6",
+        "21",
+        "No"
+      ],
+      [
+        "0.92",
+        "Female",
+        "'Has relevent experience'",
+        "Masters",
+        ">20",
+        "74",
+        "No"
+      ],
+      [
+        "0.924",
+        "nan",
+        "'Has relevent experience'",
+        "Graduate",
+        "9",
+        "94",
+        "No"
+      ],
+      [
+        "0.624",
+        "Male",
+        "'Has relevent experience'",
+        "Masters",
+        "15",
+        "75",
+        "No"
+      ],
+      [
+        "0.698",
+        "Male",
+        "'No relevent experience'",
+        "Masters",
+        "12",
+        "157",
+        "No"
+      ]
+    ],
+    "source": "https://www.openml.org/d/46935",
+    "source_label": "OpenML 46935 \u00b7 TabArena-curated job-change intention",
+    "license": "See OpenML dataset card",
+    "question": "Reported job-change search intention",
+    "definition": "Original target supplied by the source; intention is not a verified exit.",
+    "sha256": "3103d37cf2da26fca6ea890a52d18db30c56e1d0f8da76438489218fbb57fd63"
+  },
+  "absence": {
+    "rows": 740,
+    "columns": 21,
+    "headers": [
+      "Reason for absence",
+      "Month of absence",
+      "Day of the week",
+      "Service time",
+      "Age",
+      "Work load Average/day ",
+      "Absenteeism time in hours"
+    ],
+    "sample_rows": [
+      [
+        26.0,
+        7.0,
+        3.0,
+        13.0,
+        33.0,
+        239.554,
+        4.0
+      ],
+      [
+        0.0,
+        7.0,
+        3.0,
+        18.0,
+        50.0,
+        239.554,
+        0.0
+      ],
+      [
+        23.0,
+        7.0,
+        4.0,
+        18.0,
+        38.0,
+        239.554,
+        2.0
+      ],
+      [
+        7.0,
+        7.0,
+        5.0,
+        14.0,
+        39.0,
+        239.554,
+        4.0
+      ],
+      [
+        23.0,
+        7.0,
+        5.0,
+        13.0,
+        33.0,
+        239.554,
+        2.0
+      ]
+    ],
+    "source": "https://archive.ics.uci.edu/dataset/445/absenteeism+at+work",
+    "source_label": "UCI 445 \u00b7 Brazilian courier absence records",
+    "license": "CC BY 4.0",
+    "question": "Absence episode of at least eight hours",
+    "definition": "PeopleFM-derived binary target: source absence hours \u2265 8. This threshold is a demonstration choice, not a clinical or employment rule.",
+    "sha256": "41930631aa5b14f91fde29ae595cefad2beac464ddf837bf8150487e40038320"
+  },
+  "productivity": {
+    "rows": 1197,
+    "columns": 15,
+    "headers": [
+      "quarter",
+      "department",
+      "day",
+      "team",
+      "targeted_productivity",
+      "wip",
+      "actual_productivity"
+    ],
+    "sample_rows": [
+      [
+        "Quarter1",
+        "sweing",
+        "Thursday",
+        8,
+        0.8,
+        1108.0,
+        0.9407
+      ],
+      [
+        "Quarter1",
+        "finishing ",
+        "Thursday",
+        1,
+        0.75,
+        null,
+        0.8865
+      ],
+      [
+        "Quarter1",
+        "sweing",
+        "Thursday",
+        11,
+        0.8,
+        968.0,
+        0.8006
+      ],
+      [
+        "Quarter1",
+        "sweing",
+        "Thursday",
+        12,
+        0.8,
+        968.0,
+        0.8006
+      ],
+      [
+        "Quarter1",
+        "sweing",
+        "Thursday",
+        6,
+        0.8,
+        1170.0,
+        0.8004
+      ]
+    ],
+    "source": "https://archive.ics.uci.edu/dataset/597/productivity+prediction+of+garment+employees",
+    "source_label": "UCI 597 \u00b7 Garment-team productivity records",
+    "license": "CC BY 4.0",
+    "question": "Team met its recorded productivity target",
+    "definition": "PeopleFM-derived binary target: actual productivity \u2265 recorded target. Rows describe teams and dates, not individual employees.",
+    "sha256": "763ffcdd39b7f7f360243c2af8f89ed733e8b5f9e511efeb0c886b83e1b76866"
+  }
+}
