@@ -43,8 +43,17 @@
       },
       {
         "model": "TabICLv2",
-        "status": "NOT_RUN",
-        "reason": "No foundation-model run was executed for this extension."
+        "status": "EXECUTED",
+        "checkpoint": "tabicl-classifier-v2-20260212.ckpt",
+        "train_rows": 592,
+        "test_rows": 148,
+        "fit_seconds": 0.2786001250206027,
+        "test_inference_seconds": 0.7012657500163186,
+        "metrics": {
+          "roc_auc": 0.9373522458628842,
+          "average_precision": 0.8809463969763514,
+          "brier": 0.09477750211954117
+        }
       }
     ]
   },
@@ -92,8 +101,17 @@
       },
       {
         "model": "TabICLv2",
-        "status": "NOT_RUN",
-        "reason": "No foundation-model run was executed for this extension."
+        "status": "EXECUTED",
+        "checkpoint": "tabicl-classifier-v2-20260212.ckpt",
+        "train_rows": 957,
+        "test_rows": 240,
+        "fit_seconds": 0.2834652909950819,
+        "test_inference_seconds": 1.2687133330036886,
+        "metrics": {
+          "roc_auc": 0.8163516483516484,
+          "average_precision": 0.9267184247276326,
+          "brier": 0.1612222045660019
+        }
       }
     ]
   }
